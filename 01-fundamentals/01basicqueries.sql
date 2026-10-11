@@ -17,3 +17,13 @@ FROM departments;
 SELECT * 
 FROM employees;
 
+-- 3. Select spacific columns
+
+SELECT first_name , last_name
+FROM employees;
+
+-- 4. Select employee names and salaries
+
+SELECT first_name , last_name , salary
+FROM employees;
+
