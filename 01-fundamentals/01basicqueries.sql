@@ -32,3 +32,12 @@ FROM employees;
 SELECT employee_id , hire_date
 FROM employees;
 
+-- 6. Give columns readable names using aliases
+
+SELECT
+   first_name AS first_name,
+   last_name AS last_name,
+   salary AS monthly_salary
+FROM employees;
+
+
