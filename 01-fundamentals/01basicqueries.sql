@@ -27,3 +27,8 @@ FROM employees;
 SELECT first_name , last_name , salary
 FROM employees;
 
+-- 5. Select employees IDs and hire dates. 
+
+SELECT employee_id , hire_date
+FROM employees;
+
