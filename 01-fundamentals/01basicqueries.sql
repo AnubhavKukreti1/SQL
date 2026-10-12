@@ -41,3 +41,8 @@ SELECT
 FROM employees;
 
 
+-- 7. Combine first and last names
+
+SELECT 
+    CONCAT(first_name, ' ' , last_name) AS full_name
+FROM employees;
