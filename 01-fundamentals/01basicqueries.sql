@@ -76,3 +76,10 @@ FROM employees
 WHERE manager_id IS NULL;
 
 
+-- 12. Display the first 5 employees names 
+
+SELECT 
+    first_name , last_name
+FROM employees
+LIMIT 5;
+
