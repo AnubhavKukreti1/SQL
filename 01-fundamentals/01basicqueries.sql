@@ -69,3 +69,10 @@ FROM employees
 LIMIT 10;
 
 
+-- 11. Find employees where manager id is NULL
+
+SELECT *
+FROM employees 
+WHERE manager_id IS NULL;
+
+
