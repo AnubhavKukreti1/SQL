@@ -56,3 +56,7 @@ SELECT
     salary
 FROM employees;
 
+-- 9. Find unique department IDs in the employees table
+
+SELECT DISTINCT department_id 
+FROM employees;
