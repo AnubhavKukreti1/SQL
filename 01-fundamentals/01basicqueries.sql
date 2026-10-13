@@ -60,3 +60,12 @@ FROM employees;
 
 SELECT DISTINCT department_id 
 FROM employees;
+
+
+-- 10. Find unique hire dates
+
+SELECT * 
+FROM employees
+LIMIT 10;
+
+
