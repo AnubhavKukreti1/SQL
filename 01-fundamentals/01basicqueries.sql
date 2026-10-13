@@ -46,3 +46,13 @@ FROM employees;
 SELECT 
     CONCAT(first_name, ' ' , last_name) AS full_name
 FROM employees;
+
+-- 8. Display employee details with full names
+
+SELECT 
+    employee_id,
+    CONCAT(first_name , " " , last_name) AS full_name,
+    department_id,
+    salary
+FROM employees;
+
