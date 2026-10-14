@@ -83,3 +83,9 @@ SELECT
 FROM employees
 LIMIT 5;
 
+-- 13. Skip the first 10 rows and display the next 10
+
+SELECT * 
+FROM employees
+LIMIT 10 OFFSET 10;
+
