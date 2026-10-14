@@ -85,7 +85,16 @@ LIMIT 5;
 
 -- 13. Skip the first 10 rows and display the next 10
 
-SELECT * 
+SELECT *
 FROM employees
 LIMIT 10 OFFSET 10;
+
+-- 14. Perform calculations in a SELECT statement
+
+SELECT
+    first_name,
+    salary,
+    salary + 5000 AS salary_plus_5000
+FROM employees;
+
 
