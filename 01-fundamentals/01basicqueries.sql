@@ -122,3 +122,8 @@ SELECT
     first_name,
     'Employee' AS employee_type
 FROM employees;
+
+
+-- 18. Count all employees
+SELECT COUNT(*) AS total_employees
+FROM employees;
