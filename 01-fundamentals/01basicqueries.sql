@@ -98,3 +98,11 @@ SELECT
 FROM employees;
 
 
+-- 15. Calculate a hypothetical 10% salary increase
+
+SELECT 
+    first_name,
+    salary,
+    salary * 1.10 AS salary_with_increase
+FROM employees;
+
