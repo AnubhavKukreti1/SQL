@@ -114,3 +114,11 @@ SELECT
     salary AS monthly_salary,
     salary * 12 AS annual_salary
 FROM employees;
+
+
+-- 17. Display a fixed text value alongside employee names
+
+SELECT
+    first_name,
+    'Employee' AS employee_type
+FROM employees;
