@@ -127,3 +127,7 @@ FROM employees;
 -- 18. Count all employees
 SELECT COUNT(*) AS total_employees
 FROM employees;
+
+-- 19. Count all departments
+SELECT COUNT(*) AS total_departments
+FROM departments;
