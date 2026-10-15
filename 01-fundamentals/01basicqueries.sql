@@ -106,3 +106,11 @@ SELECT
     salary * 1.10 AS salary_with_increase
 FROM employees;
 
+
+-- 16. Calculate the annual salary of employees
+
+SELECT 
+    CONCAT(first_name, ' ', last_name) AS full_name,
+    salary AS monthly_salary,
+    salary * 12 AS annual_salary
+FROM employees;
